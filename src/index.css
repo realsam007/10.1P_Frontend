@@ -1,0 +1,48 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f7f9fc; /* Soft blue-grey background */
+  color: #699c9a; /* Darker grey text for better contrast */
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Code Styling */
+code {
+  font-family: 'Fira Code', 'Courier New', monospace;
+  background-color: #eaeff5; /* Light blue-grey background for code blocks */
+  color: #d6336c; /* Hot pink text for code blocks */
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+/* Container Styling */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners for container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 15px;
+  color: #4a4a4a; /* Medium grey text for body */
+}
